@@ -1,0 +1,61 @@
+
+
+header{ 
+    background-color: #290149;
+    opacity: 50%;
+}
+
+h1 
+{
+text-align: center;
+color: white;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.img1
+ {
+  /* The image used */
+  background-image: url("444.jpg");
+
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+
+}
+
+p
+{
+    color: darkblue;
+    
+}
+
+button{
+    color: white;
+    background-color: #290149;
+    height: 100px;
+    width: max-content;
+   }
+
+footer{
+
+    background-color: #290149;
+    opacity: 50%;
+}
+
+ 
+   li {
+        color: darkblue;
+        background-color: transparent;
+        text-decoration: none;
+        list-style: none;
+    
+   }
+
