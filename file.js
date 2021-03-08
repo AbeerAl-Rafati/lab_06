@@ -8,13 +8,14 @@ var massage1 = "Congratulations !!! 🤩"
 var massage2 = " NOOOOOO, Search about the 1984 novel and READ it !! 😖"
 
 
-
+function fun(){
 while ( userinput != "no"  &&  userinput != "yes")
 { 
     userinput = prompt("Answer with yes or no, for please !");
 } 
+ }
 
-
+fun();
 
 
 
@@ -39,9 +40,17 @@ if (userinput == "yes")
     alert(massage2)
 
      var answer2 = prompt ("Would you like to read it?")
-
+     
+     function fun2(){
+     while ( answer2 != "no"  &&  answer2 != "yes")
+     { 
+         answer2 = prompt("Answer with yes or no, for please !");
+     } 
+     }
+     fun2();
      document.write ( massage2 );  
-
+     
+     
 
 
     if (answer2 == "no")
@@ -52,7 +61,7 @@ if (userinput == "yes")
     else if (answer2 == "yes")   
     {   
         var num2 = prompt ("How many person would you like to read the book with you?")
-
+       fun2
       Function2();         
    
     } 
