@@ -51,7 +51,7 @@ if (userinput == "yes")
 
     else if (answer2 == "yes")   
     {   
-        var num2 = prompt ("How many person would you like to celebrate with you?")
+        var num2 = prompt ("How many person would you like to read the book with you?")
 
       Function2();         
    
